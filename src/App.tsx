@@ -1,13 +1,11 @@
-
+import Functional from "./Paterns/Component Architecture/Functional";
 
 function App() {
-  
-
   return (
-    <>Hello
-
+    <>
+      <Functional />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
