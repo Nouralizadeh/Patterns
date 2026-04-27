@@ -6,6 +6,10 @@
 }
 
 .main-container {
+  @apply items-center m-10 flex flex-col p-6;
+}
+
+.borderd-container {
   @apply items-center m-10 border rounded-lg flex flex-col p-6;
 }
 

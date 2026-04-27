@@ -2,7 +2,7 @@ import { useState } from "react";
 
 export default function ContainerPresenter() {
   return (
-    <div className="main-container">
+    <div className="borderd-container">
       <CounterContainer />
     </div>
   );
