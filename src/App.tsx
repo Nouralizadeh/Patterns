@@ -1,8 +1,9 @@
-import Functional from "./Paterns/Component Architecture/Functional";
-import ContainerPresenter from "./Paterns/Component Architecture/Container-Presenter";
-import HOC from "./Paterns/Component Architecture/HOC";
-import RenderProps from "./Paterns/Component Architecture/RenderProps";
-import ProviderPattern from "./Paterns/Component Architecture/ProviderPattern";
+// import Functional from "./Paterns/Component Architecture/Functional";
+// import ContainerPresenter from "./Paterns/Component Architecture/Container-Presenter";
+// import HOC from "./Paterns/Component Architecture/HOC";
+// import RenderProps from "./Paterns/Component Architecture/RenderProps";
+// import ProviderPattern from "./Paterns/Component Architecture/ProviderPattern";
+import CompoundComponnets from "./Paterns/Component Architecture/CompoundComponents";
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       {/* <ContainerPresenter/> */}
       {/* <HOC /> */}
       {/* <RenderProps /> */}
-      <ProviderPattern />
+      {/* <ProviderPattern /> */}
+      <CompoundComponnets />
     </>
   );
 }
