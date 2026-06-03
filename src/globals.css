@@ -15,12 +15,16 @@
 
 .btn-primary,
 .btn-accept,
-.btn-denied {
+.btn-denied,
+.btn-primary-dark {
   @apply px-4 py-2 rounded-lg font-medium transition-all active:scale-95 disabled:opacity-50 m-4;
 }
 
 .btn-primary {
   @apply bg-blue-600 text-white hover:bg-blue-700;
+}
+.btn-primary-dark {
+  @apply bg-gray-400  hover:bg-gray-300;
 }
 .btn-accept {
   @apply bg-emerald-500 text-white hover:bg-emerald-400;
