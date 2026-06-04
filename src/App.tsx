@@ -3,17 +3,19 @@
 // import HOC from "./Paterns/Component Architecture/HOC";
 // import RenderProps from "./Paterns/Component Architecture/RenderProps";
 // import ProviderPattern from "./Paterns/Component Architecture/ProviderPattern";
-import CompoundComponnets from "./Paterns/Component Architecture/CompoundComponents";
+// import CompoundComponnets from "./Paterns/Component Architecture/CompoundComponents";
+import UnControlledDemo from "./Paterns/Component Architecture/Un-controlled";
 
 function App() {
   return (
     <>
-      {/* <Functional /> */}
-      {/* <ContainerPresenter/> */}
-      {/* <HOC /> */}
-      {/* <RenderProps /> */}
-      {/* <ProviderPattern /> */}
-      <CompoundComponnets />
+      {/* <Functional />
+      <ContainerPresenter />
+      <HOC />
+      <RenderProps />
+      <ProviderPattern />
+      <CompoundComponnets /> */}
+      <UnControlledDemo />
     </>
   );
 }

@@ -6,7 +6,7 @@
 }
 
 .main-container {
-  @apply items-center m-10 flex flex-col p-6;
+  @apply items-center m-10 flex justify-center p-6;
 }
 
 .borderd-container {
