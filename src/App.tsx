@@ -4,7 +4,7 @@
 // import RenderProps from "./Paterns/Component Architecture/RenderProps";
 // import ProviderPattern from "./Paterns/Component Architecture/ProviderPattern";
 // import CompoundComponnets from "./Paterns/Component Architecture/CompoundComponents";
-import UnControlledDemo from "./Paterns/Component Architecture/Un-controlled";
+import UnControlledDemo from "./Paterns/ComponentArchitecture/Un-controlled";
 
 function App() {
   return (
