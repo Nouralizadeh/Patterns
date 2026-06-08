@@ -5,7 +5,8 @@
 // import ProviderPattern from "./Paterns/Component Architecture/ProviderPattern";
 // import CompoundComponnets from "./Paterns/Component Architecture/CompoundComponents";
 // import UnControlledDemo from "./Paterns/ComponentArchitecture/Un-controlled";
-import StateReducer from "./Paterns/StatePatterns/StateReducer";
+// import StateReducer from "./Paterns/StatePatterns/StateReducer";
+import { CustomHook } from "./Paterns/StatePatterns/CustomHook";
 
 function App() {
   return (
@@ -16,8 +17,9 @@ function App() {
       <RenderProps />
       <ProviderPattern />
       <CompoundComponnets />
-      <UnControlledDemo /> */}
-      <StateReducer />
+      <UnControlledDemo /> 
+      <StateReducer />*/}
+      <CustomHook />
     </>
   );
 }
