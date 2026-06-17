@@ -9,12 +9,14 @@
   @apply items-center m-10 flex justify-center p-6;
 }
 
-.borderd-container {
+.bordered-container {
   @apply items-center m-10 border rounded-lg flex flex-col p-6;
 }
 
-.borderd-elevated {
+.elevated-container {
   @apply items-center text-center m-10 max-w-md mx-auto p-6 bg-white shadow-2xl rounded-2xl border border-slate-100;
+  @apply dark:bg-slate-700 dark:border-slate-600 dark:shadow-none;
+  @apply dark:ring-1 dark:ring-white/10;
 }
 
 .btn-primary,

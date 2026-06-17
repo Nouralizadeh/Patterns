@@ -53,7 +53,7 @@ export default function StateReducer() {
   return (
     <div className="main-container  flex-col">
       <h2 className="title">State Reducer Pattern</h2>
-      <div className="borderd-container w-150">
+      <div className="bordered-container w-150">
         <p className="label1">
           Clicks: <span className="label2">{clicksCount}</span>
         </p>

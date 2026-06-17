@@ -50,7 +50,7 @@ export function LiftingStateUp() {
   const [temperature, setTemperature] = useState(20);
 
   return (
-    <div className="borderd-elevated">
+    <div className="elevated-container">
       <h2 className="title">Smart Home System</h2>
 
       <TemperatureInput temp={temperature} onTempChange={setTemperature} />

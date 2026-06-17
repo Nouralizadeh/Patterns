@@ -9,7 +9,7 @@ export default Functional;
 export function Counter() {
   const [count, setCount] = useState(0);
   return (
-    <div className="borderd-container">
+    <div className="bordered-container">
       <h1 className="title">Counter</h1>
       <p className="text-9xl">{count}</p>
       <div className="flex">

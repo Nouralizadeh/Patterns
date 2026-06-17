@@ -5,7 +5,7 @@ export default function RenderProps() {
     <div className="main-container">
       <MouseTracker
         render={({ x, y }) => (
-          <div className="borderd-container">
+          <div className="bordered-container">
             <h2 className="text-lg font-bold mb-3">Render Props Example</h2>
             <p className="text-gray-700 mb-4">
               Move your mouse anywhere in the window!

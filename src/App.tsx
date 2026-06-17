@@ -7,7 +7,8 @@
 // import UnControlledDemo from "./Paterns/ComponentArchitecture/Un-controlled";
 // import StateReducer from "./Paterns/StatePatterns/StateReducer";
 // import { CustomHook } from "./Paterns/StatePatterns/CustomHook";
-import { LiftingStateUp } from "./Paterns/StatePatterns/LiftingStateUp";
+// import { LiftingStateUp } from "./Paterns/StatePatterns/LiftingStateUp";
+import { ContextPattern } from "./Paterns/StatePatterns/ContextPattern";
 
 function App() {
   return (
@@ -20,8 +21,9 @@ function App() {
       <CompoundComponnets />
       <UnControlledDemo /> 
       <StateReducer />
-      <CustomHook />*/}
-      <LiftingStateUp />
+      <CustomHook />
+      <LiftingStateUp />*/}
+      <ContextPattern />
     </>
   );
 }

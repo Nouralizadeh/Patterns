@@ -13,7 +13,7 @@ export function CustomHook() {
   };
 
   return (
-    <div className="borderd-elevated">
+    <div className="elevated-container">
       <h2 className="title">Join the Newsletter 🚀</h2>
 
       <form onSubmit={handleSubmit} className="items-center space-y-4">

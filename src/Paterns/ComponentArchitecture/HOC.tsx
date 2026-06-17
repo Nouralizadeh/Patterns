@@ -4,7 +4,7 @@ export default function HOC() {
   const EnhancedCounter = withCounter(CounterButton);
 
   return (
-    <div className="borderd-container">
+    <div className="bordered-container">
       <h2 className="title2">HOC Example</h2>
 
       <EnhancedCounter />
