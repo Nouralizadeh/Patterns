@@ -8,7 +8,8 @@
 // import StateReducer from "./Paterns/StatePatterns/StateReducer";
 // import { CustomHook } from "./Paterns/StatePatterns/CustomHook";
 // import { LiftingStateUp } from "./Paterns/StatePatterns/LiftingStateUp";
-import { ContextPattern } from "./Paterns/StatePatterns/ContextPattern";
+// import { ContextPattern } from "./Paterns/StatePatterns/ContextPattern";
+import { EventBusPattern } from "./Paterns/StatePatterns/EventBusPattern";
 
 function App() {
   return (
@@ -22,8 +23,9 @@ function App() {
       <UnControlledDemo /> 
       <StateReducer />
       <CustomHook />
-      <LiftingStateUp />*/}
-      <ContextPattern />
+      <LiftingStateUp />
+      <ContextPattern />*/}
+      <EventBusPattern />
     </>
   );
 }

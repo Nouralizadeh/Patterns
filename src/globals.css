@@ -19,6 +19,10 @@
   @apply dark:ring-1 dark:ring-white/10;
 }
 
+.dashed-border-container {
+  @apply p-4 border border-dashed rounded-xl border-slate-300 dark:border-slate-500;
+}
+
 .btn-primary,
 .btn-accept,
 .btn-denied,
