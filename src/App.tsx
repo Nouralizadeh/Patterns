@@ -10,7 +10,8 @@
 // import { LiftingStateUp } from "./Paterns/StatePatterns/LiftingStateUp";
 // import { ContextPattern } from "./Paterns/StatePatterns/ContextPattern";
 // import { EventBusPattern } from "./Paterns/StatePatterns/EventBusPattern";
-import { ObservablePattern } from "./Paterns/StatePatterns/ObservablePattern";
+// import { ObservablePattern } from "./Paterns/StatePatterns/ObservablePattern";
+import MemoizationPattern from "./Paterns/RenderingAndPerformancePatterns/MemoizationPattern";
 
 function App() {
   return (
@@ -26,8 +27,9 @@ function App() {
       <CustomHook />
       <LiftingStateUp />
       <ContextPattern />
-      <EventBusPattern />*/}
-      <ObservablePattern />
+      <EventBusPattern />
+      <ObservablePattern /> */}
+      <MemoizationPattern />
     </>
   );
 }
