@@ -43,7 +43,7 @@ function ActionComponent() {
   };
 
   return (
-    <div className="p-4 border border-dashed rounded-xl border-slate-300 dark:border-slate-500">
+    <div className="dashed-border-container">
       <p className="label1 mb-2">
         Sender Component (No direct link to receiver)
       </p>
