@@ -11,7 +11,8 @@
 // import { ContextPattern } from "./Paterns/StatePatterns/ContextPattern";
 // import { EventBusPattern } from "./Paterns/StatePatterns/EventBusPattern";
 // import { ObservablePattern } from "./Paterns/StatePatterns/ObservablePattern";
-import MemoizationPattern from "./Paterns/RenderingAndPerformancePatterns/MemoizationPattern";
+// import MemoizationPattern from "./Paterns/RenderingAndPerformancePatterns/MemoizationPattern";
+import LazyAndErrorBoundary from "./Paterns/RenderingAndPerformancePatterns/LazyAndErrorBoundaryPattern";
 
 function App() {
   return (
@@ -28,8 +29,9 @@ function App() {
       <LiftingStateUp />
       <ContextPattern />
       <EventBusPattern />
-      <ObservablePattern /> */}
-      <MemoizationPattern />
+      <ObservablePattern /> 
+      <MemoizationPattern /> */}
+      <LazyAndErrorBoundary />
     </>
   );
 }
