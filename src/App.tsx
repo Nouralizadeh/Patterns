@@ -12,7 +12,8 @@
 // import { EventBusPattern } from "./Paterns/StatePatterns/EventBusPattern";
 // import { ObservablePattern } from "./Paterns/StatePatterns/ObservablePattern";
 // import MemoizationPattern from "./Paterns/RenderingAndPerformancePatterns/MemoizationPattern";
-import LazyAndErrorBoundary from "./Paterns/RenderingAndPerformancePatterns/LazyAndErrorBoundaryPattern";
+// import LazyAndErrorBoundary from "./Paterns/RenderingAndPerformancePatterns/LazyAndErrorBoundaryPattern";
+import VirtualizationPattern from "./Paterns/RenderingAndPerformancePatterns/VirtualizationPattern";
 
 function App() {
   return (
@@ -30,8 +31,9 @@ function App() {
       <ContextPattern />
       <EventBusPattern />
       <ObservablePattern /> 
-      <MemoizationPattern /> */}
-      <LazyAndErrorBoundary />
+      <MemoizationPattern />
+      <LazyAndErrorBoundary /> */}
+      <VirtualizationPattern />
     </>
   );
 }
