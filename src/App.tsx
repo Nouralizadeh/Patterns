@@ -16,7 +16,8 @@
 // import VirtualizationPattern from "./Paterns/RenderingAndPerformancePatterns/VirtualizationPattern";
 // import LayoutCompositionPattern from "./Paterns/RenderingAndPerformancePatterns/LayoutCompositionPattern";
 // import ConcurrentPattern from "./Paterns/RenderingAndPerformancePatterns/ConcurrentPattern";
-import DataFetchingCachePattern from "./Paterns/APIDataPatterns/DataFetchingCachePattern";
+// import DataFetchingCachePattern from "./Paterns/APIDataPatterns/DataFetchingCachePattern";
+import SuspensePattern from "./Paterns/APIDataPatterns/SuspensePattern";
 
 function App() {
   return (
@@ -38,8 +39,9 @@ function App() {
       <LazyAndErrorBoundary />
       <VirtualizationPattern />
       <LayoutCompositionPattern />
-      <ConcurrentPattern /> */}
-      <DataFetchingCachePattern />
+      <ConcurrentPattern />
+      <DataFetchingCachePattern /> */}
+      <SuspensePattern />
     </>
   );
 }
