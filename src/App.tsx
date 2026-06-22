@@ -18,8 +18,8 @@
 // import ConcurrentPattern from "./Paterns/RenderingAndPerformancePatterns/ConcurrentPattern";
 // import DataFetchingCachePattern from "./Paterns/APIDataPatterns/DataFetchingCachePattern";
 // import SuspensePattern from "./Paterns/APIDataPatterns/SuspensePattern";
-
-import PrefetchPattern from "./Paterns/APIDataPatterns/PrefetchPattern";
+// import PrefetchPattern from "./Paterns/APIDataPatterns/PrefetchPattern";
+import HeadlessPattern from "./Paterns/ReusabilityPatterns/HeadlessPattern";
 
 function App() {
   return (
@@ -43,8 +43,9 @@ function App() {
       <LayoutCompositionPattern />
       <ConcurrentPattern />
       <DataFetchingCachePattern />
-      <SuspensePattern /> */}
-      <PrefetchPattern />
+      <SuspensePattern />
+      <PrefetchPattern /> */}
+      <HeadlessPattern />
     </>
   );
 }
