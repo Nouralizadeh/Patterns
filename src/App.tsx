@@ -19,7 +19,8 @@
 // import DataFetchingCachePattern from "./Paterns/APIDataPatterns/DataFetchingCachePattern";
 // import SuspensePattern from "./Paterns/APIDataPatterns/SuspensePattern";
 // import PrefetchPattern from "./Paterns/APIDataPatterns/PrefetchPattern";
-import HeadlessPattern from "./Paterns/ReusabilityPatterns/HeadlessPattern";
+// import HeadlessPattern from "./Paterns/ReusabilityPatterns/HeadlessPattern";
+import StrategyPattern from "./Paterns/ReusabilityPatterns/StrategyPattern";
 
 function App() {
   return (
@@ -44,8 +45,9 @@ function App() {
       <ConcurrentPattern />
       <DataFetchingCachePattern />
       <SuspensePattern />
-      <PrefetchPattern /> */}
-      <HeadlessPattern />
+      <PrefetchPattern />
+      <HeadlessPattern /> */}
+      <StrategyPattern />
     </>
   );
 }
