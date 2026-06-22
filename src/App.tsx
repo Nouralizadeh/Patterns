@@ -21,7 +21,8 @@
 // import PrefetchPattern from "./Paterns/APIDataPatterns/PrefetchPattern";
 // import HeadlessPattern from "./Paterns/ReusabilityPatterns/HeadlessPattern";
 // import StrategyPattern from "./Paterns/ReusabilityPatterns/StrategyPattern";
-import AdapterPattern from "./Paterns/ReusabilityPatterns/AdapterPattern";
+// import AdapterPattern from "./Paterns/ReusabilityPatterns/AdapterPattern";
+import FactoryPattern from "./Paterns/ReusabilityPatterns/FactoryPattern";
 
 function App() {
   return (
@@ -48,8 +49,9 @@ function App() {
       <SuspensePattern />
       <PrefetchPattern />
       <HeadlessPattern />
-      <StrategyPattern /> */}
-      <AdapterPattern />
+      <StrategyPattern />
+      <AdapterPattern /> */}
+      <FactoryPattern />
     </>
   );
 }
